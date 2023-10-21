@@ -77,6 +77,8 @@ button{
     cursor: pointer;
     border-radius: 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    /* margin: 10px auto; */
 }
 ul li{
     list-style: none;
