@@ -2,15 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}  
 .container{
     width : 100%;
     height: 100vh;
     /* background: repeating-linear-gradient(135deg,#153677 20%,#4e085f 405); */
-    background: linear-gradient(135deg, #FFA500 25%, transparent 50%, transparent 50%, #FFA500 70%, #FFA500 80%, transparent 100%, transparent);
-  
-   
-    
+    background: linear-gradient(135deg, #FFA500 25%, transparent 50%, transparent 50%, #FFA500 70%, #FFA500 80%, transparent 100%, transparent); 
     /* background-image: url("./images/img.avif");
     background-position: center;
     background-repeat: no-repeat;
@@ -39,6 +36,7 @@ img{
     width: 40px;
     margin-left: 10px;
 }
+
 .row{
     display:flex;
     align-items: center;
@@ -50,6 +48,17 @@ img{
     border-radius: 40px;
 
 }
+/* For tablets and larger screens */
+@media only screen and (min-width: 600px) {
+    .main-box {
+      max-width: 540px; /* Adjust as needed */
+    }
+  
+    .row {
+      flex-direction: row; /* Restore the horizontal layout for larger screens */
+    }
+  }
+  
 input{
    flex:1;
    border: none;
