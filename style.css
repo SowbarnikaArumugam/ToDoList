@@ -51,7 +51,7 @@ img{
 /* For tablets and larger screens */
 @media only screen and (min-width: 600px) {
     .main-box {
-      max-width: 540px; /* Adjust as needed */
+      max-width: 570px; /* Adjust as needed */
     }
   
     .row {
