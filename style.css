@@ -49,23 +49,16 @@ img{
 
 }
 /* For tablets and larger screens */
-/* @media all and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     .main-box {
-      max-width: 530px; /* Adjust as needed 
+      max-width: 530px; /* Adjust as needed */
     }
   
     .row {
-      flex-direction: row; /* Restore the horizontal layout for larger screens 
+      flex-direction: row; /* Restore the horizontal layout for larger screens */
     }
-  } */
+  }
   
-@media screen and (max-device-width: 480px) 
-    and (orientation: portrait) {
-    .gfg-div {
-        width: 200px;
-        height: 200px;
-    }
-}
 input{
    flex:1;
    border: none;
